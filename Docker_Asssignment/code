@@ -1,0 +1,8 @@
+list1= open(r"BEYOND THE WALL OF SLEEP.txt","r")
+list1=(list1.read()).split()
+
+list2= open(r"The Project Gutenberg eBook of Pride and Prejudice.txt","r" , encoding="utf8")
+list2=(list2.read()).split()
+
+set=(set(list1+list2))
+print(len(set))
